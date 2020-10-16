@@ -3,7 +3,7 @@ import {ComConfig} from '@corets/type'
 import dict from '@custom/dict';
 
 const sysInfo = {
-    name: 'Fros UI',
+    name: 'Near-Admin',
     logo: '/static/images/logo/logo.svg',
     description: dict.localeObj.sysInfo.sysIntro,
     appId: apiConfig.appId,
