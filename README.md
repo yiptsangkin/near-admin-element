@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="180" src="https://github.com/yiptsangkin/near-admin-element/blob/master/public/static/images/logo/logo.svg">
+  <img width="180" src="https://github.com/yiptsangkin/near-admin-element/blob/main/public/static/images/logo/logo.svg">
 </p>
 
 <p align="center">
