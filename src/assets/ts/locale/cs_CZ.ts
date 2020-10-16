@@ -35,7 +35,7 @@ export default {
             0: 'Základní rámec',
             1: 'Základní schopnost',
             '0-0': 'Vue',
-            '0-1': 'Ant Design',
+            '0-1': 'Živel',
             '0-2': 'Poblíž Admin Vue',
             '1-0': 'Funkce rámce',
             '1-0-0': 'Konfigurace projektu',
@@ -64,11 +64,11 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Užitečný prostřední a back-endový front-endový vývojový rámec založený na Vue a Ant Design'
+        sysIntro: 'Užitečný prostřední a back-endový front-end vývojový rámec založený na Vue a Element'
     },
     requestInfo: {
         withoutUrl: 'Adresa požadavku nesmí být prázdná',
-        networkErr: 'Síťový požadavek se nezdařil, zkuste to prosím později'
+        networkErr: 'Síťový požadavek se nezdařil, zkuste to znovu později'
     },
     localeMap: {
         ar: 'arabština',
@@ -142,7 +142,7 @@ export default {
     personalCenter: {
         frontendLog: 'Protokol frontendu',
         customSetting: 'Personalizace',
-        customClean: 'Vymazat konfiguraci',
+        customClean: 'Jasná konfigurace',
         logout: 'odhlásit se',
         errorTip: {
             cleanSuccess: 'Vyprázdněte úspěšně'
@@ -151,8 +151,8 @@ export default {
     errorPage: {
         errorTip: {
             notfoundTip: 'Litujeme, stránka, kterou jste navštívili, neexistuje',
-            notrightTip: 'Litujeme, nemáte přístup k této stránce',
-            noserviceTip: 'Litujeme, došlo k problému se serverem, zkuste to prosím později'
+            notrightTip: 'Omlouváme se, nemáte oprávnění k přístupu na tuto stránku',
+            noserviceTip: 'Litujeme, došlo k problému se serverem, zkuste to prosím znovu později'
         },
         btnText: 'Zavřít stránku'
     },
@@ -199,7 +199,7 @@ export default {
     },
     comTable: {
         columns: {
-            title: 'Nastavení sloupce',
+            title: 'Nastavení sloupců',
             all: 'vybrat vše',
             reset: 'Resetovat',
             fixedLeft: 'Opraveno vlevo',

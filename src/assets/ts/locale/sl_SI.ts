@@ -16,7 +16,7 @@ export default {
             emptyErr: 'geslo ne sme biti prazno'
         },
         byValidTip: {
-            emptyErr: 'Izpolniti je treba preveritveno kodo'
+            emptyErr: 'Izpolniti je treba verifikacijsko kodo'
         },
         sendMsg: {
             repeatErr: 'Ne pošiljajte večkrat',
@@ -35,7 +35,7 @@ export default {
             0: 'Osnovni okvir',
             1: 'Osnovna sposobnost',
             '0-0': 'Vue',
-            '0-1': 'Oblikovanje mravelj',
+            '0-1': 'Element',
             '0-2': 'V bližini Admin Vue',
             '1-0': 'Okvirna funkcija',
             '1-0-0': 'Konfiguracija projekta',
@@ -50,7 +50,7 @@ export default {
             '1-1': 'Funkcija strani',
             '1-1-0': 'Stran s komponentami',
             '1-1-1': 'url stran',
-            '1-1-2': 'Ni strani z dovoljenjem',
+            '1-1-2': 'Ni strani z dovoljenji',
             '1-1-3': '404 strani'
         },
         errorTip: {
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Uporabni srednji in zaledni front-end razvojni okvir, ki temelji na Vue in Ant Design'
+        sysIntro: 'Koristni srednji in zaledni front-end razvojni okvir, ki temelji na Vue in Elementu'
     },
     requestInfo: {
         withoutUrl: 'Polje za naslov zahteve ne sme biti prazno',
@@ -114,7 +114,7 @@ export default {
         sl: 'Slovenščina',
         sr: 'Srbsko',
         sv: 'Švedsko',
-        ta: 'Tamilsko',
+        ta: 'Tamilščina',
         th: 'Tajski',
         tr: 'Turški',
         uk: 'Ukrajinski',
@@ -203,7 +203,7 @@ export default {
             all: 'Izberi vse',
             reset: 'Ponastaviti',
             fixedLeft: 'Fiksno levo',
-            fixedRight: 'Fiksno desno',
+            fixedRight: 'Popravljeno desno',
             cancelFixed: 'Odpnite'
         },
         size: {
@@ -221,7 +221,7 @@ export default {
     setting: {
         customEntry: 'Hiter vstop',
         systemSwitch: 'Konfiguracija sistema',
-        isMock: 'Ali naj se posmehujem',
+        isMock: 'Ali Mock',
         isHotKey: 'Ali je bližnjična tipka',
         isBreadCrumb: 'Ali krušne drobtine',
         isCache: 'Ali naj se shrani v predpomnilnik',

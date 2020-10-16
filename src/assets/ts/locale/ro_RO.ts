@@ -35,7 +35,7 @@ export default {
             0: 'Cadrul de bază',
             1: 'Abilitate de bază',
             '0-0': 'Vue',
-            '0-1': 'Design de furnici',
+            '0-1': 'Element',
             '0-2': 'Lângă Admin Vue',
             '1-0': 'Funcția cadru',
             '1-0-0': 'Configurarea proiectului',
@@ -64,10 +64,10 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Un cadru de dezvoltare front-end mediu și back-end ușor de utilizat bazat pe Vue și Ant Design'
+        sysIntro: 'Un cadru util de dezvoltare front-end middle și back-end bazat pe Vue și Element'
     },
     requestInfo: {
-        withoutUrl: 'Adresa cererii nu poate fi goală',
+        withoutUrl: 'Adresa solicitării nu poate fi goală',
         networkErr: 'Solicitarea rețelei a eșuat, încercați din nou mai târziu'
     },
     localeMap: {
@@ -126,7 +126,7 @@ export default {
         closeAll: 'Inchide toate filele',
         closeCur: 'Inchide fereastra curenta',
         closeOther: 'Închideți alte file',
-        closeRight: 'Închideți eticheta din dreapta',
+        closeRight: 'Închideți eticheta dreaptă',
         singlePage: 'Pagină independentă',
         refreshPage: 'Reîmprospătare pagină',
         affixPage: 'Fixați pagina',
@@ -152,7 +152,7 @@ export default {
         errorTip: {
             notfoundTip: 'Ne pare rău, pagina pe care ați vizitat-o ​​nu există',
             notrightTip: 'Ne pare rău, nu aveți permisiunea de a accesa această pagină',
-            noserviceTip: 'Ne pare rău, a apărut o problemă cu serverul, vă rugăm să încercați din nou mai târziu'
+            noserviceTip: 'Ne pare rău, a apărut o problemă cu serverul, încercați din nou mai târziu'
         },
         btnText: 'Închideți pagina'
     },
@@ -221,11 +221,11 @@ export default {
     setting: {
         customEntry: 'Intrare rapidă',
         systemSwitch: 'Configuratia sistemului',
-        isMock: 'Fie să-și bată joc',
+        isMock: 'Fie Mock',
         isHotKey: 'Dacă este o tastă de comandă rapidă',
         isBreadCrumb: 'Fie pesmet',
-        isCache: 'Dacă să cache',
-        isI18n: 'Fie să internaționalizeze'
+        isCache: 'Dacă se cache',
+        isI18n: 'Fie pentru a internaționaliza'
     },
     pagingInfo: {
         total: 'In total',

@@ -35,7 +35,7 @@ export default {
             0: 'Temel çerçeve',
             1: 'Temel yetenek',
             '0-0': 'Vue',
-            '0-1': 'Karınca Tasarımı',
+            '0-1': 'Eleman',
             '0-2': 'Admin Vue yakınında',
             '1-0': 'Çerçeve işlevi',
             '1-0-0': 'Proje konfigürasyonu',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Vue ve Ant Design&#39;a dayalı, kullanımı kolay bir orta ve arka uç ön uç geliştirme çerçevesi'
+        sysIntro: 'Vue ve Element&#39;e dayalı, kullanımı kolay bir orta ve arka uç ön uç geliştirme çerçevesi'
     },
     requestInfo: {
         withoutUrl: 'İstek adresi boş olamaz',
@@ -132,7 +132,7 @@ export default {
         affixPage: 'Sayfayı sabitle',
         cancelAffixPage: 'Sabitlemeyi kaldır',
         errorTip: {
-            homePageCloseError: 'Ana sayfanın kapanmasına izin verilmiyor',
+            homePageCloseError: 'Ana sayfa kapatmaya izin vermiyor',
             affixPageCloseError: 'Sabit sayfanın kapanmasına izin verilmez',
             homePageAffixError: 'Ana sayfanın sabitlemesi kaldırılamaz'
         },

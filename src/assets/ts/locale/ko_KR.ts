@@ -35,7 +35,7 @@ export default {
             0: '기본 프레임 워크',
             1: '기본 능력',
             '0-0': 'Vue',
-            '0-1': '개미 디자인',
+            '0-1': '요소',
             '0-2': 'Admin Vue 근처',
             '1-0': '프레임 워크 기능',
             '1-0-0': '프로젝트 구성',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Vue 및 Ant Design을 기반으로 한 사용하기 쉬운 중간 및 백엔드 프런트 엔드 개발 프레임 워크'
+        sysIntro: 'Vue 및 Element를 기반으로 한 유용한 중간 및 백엔드 프론트 엔드 개발 프레임 워크'
     },
     requestInfo: {
         withoutUrl: '요청 주소는 비워 둘 수 없습니다.',
@@ -177,7 +177,7 @@ export default {
             halfDay: '반나절',
             oneDay: '하루에',
             weekDay: '일주일 안에',
-            monthDay: '1 개월 이내'
+            monthDay: '한 달 이내'
         },
         type: {
             logType: '로그 유형',

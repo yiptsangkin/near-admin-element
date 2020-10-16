@@ -35,7 +35,7 @@ export default {
             0: 'Marc bàsic',
             1: 'Capacitat bàsica',
             '0-0': 'Vue',
-            '0-1': 'Disseny de formigues',
+            '0-1': 'Element',
             '0-2': 'Prop de l&#39;administració Vue',
             '1-0': 'Funció marc',
             '1-0-0': 'Configuració del projecte',
@@ -49,12 +49,12 @@ export default {
             '1-0-8': 'tecla d&#39;accés directe',
             '1-1': 'Funció de pàgina',
             '1-1-0': 'Pàgina de components',
-            '1-1-1': 'pàgina d&#39;URL',
+            '1-1-1': 'pàgina URL',
             '1-1-2': 'Pàgina sense permís',
             '1-1-3': '404 pàgines'
         },
         errorTip: {
-            notfoundTip: 'No s&#39;ha trobat el component sota aquest camí',
+            notfoundTip: 'El component sota aquest camí no s&#39;ha trobat',
             emptyErr: 'Camí del component no configurat'
         }
     },
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Un marc de desenvolupament de front-end mitjà i posterior fàcil d’utilitzar basat en Vue i Ant Design'
+        sysIntro: 'Un marc de desenvolupament de front-end mitjà i back-end útil basat en Vue i Element'
     },
     requestInfo: {
         withoutUrl: 'L&#39;adreça de sol·licitud no pot estar buida',
@@ -136,8 +136,8 @@ export default {
             affixPageCloseError: 'No es permet tancar la pàgina corregida',
             homePageAffixError: 'La pàgina d&#39;inici no es pot deixar de fixar'
         },
-        checkSave: 'Voleu tancar la pàgina?(Assegureu-vos que s&#39;hagi desat el contingut de la pàgina marcada en vermell)',
-        cancelClose: 'S&#39;ha cancel·lat l&#39;operació de tancament'
+        checkSave: 'Voleu tancar la pàgina?(Assegureu-vos que s&#39;ha desat el contingut de la pàgina marcada en vermell)',
+        cancelClose: 'L&#39;operació de tancament s&#39;ha cancel·lat'
     },
     personalCenter: {
         frontendLog: 'Registre de frontend',
@@ -176,7 +176,7 @@ export default {
             range: 'termini',
             halfDay: 'Mig dia',
             oneDay: 'en un dia',
-            weekDay: 'en una setmana',
+            weekDay: 'dins d’una setmana',
             monthDay: 'En un mes'
         },
         type: {

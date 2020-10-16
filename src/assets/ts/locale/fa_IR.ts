@@ -26,7 +26,7 @@ export default {
         phonePlaceholder: 'لطفا شماره تلفن را وارد کنید',
         validPlaceholder: 'کد تایید',
         validBtn: 'کد تأیید را دریافت کنید',
-        loginSuccess: 'ورود با موفقیت انجام شد'
+        loginSuccess: 'ورود به سیستم موفقیت آمیز است'
     },
     menuObj: {
         basicFeature: 'توانایی اساسی',
@@ -35,7 +35,7 @@ export default {
             0: 'چارچوب اساسی',
             1: 'توانایی اساسی',
             '0-0': 'Vue',
-            '0-1': 'طراحی مورچه',
+            '0-1': 'عنصر',
             '0-2': 'نزدیک Admin Vue',
             '1-0': 'تابع چارچوب',
             '1-0-0': 'پیکربندی پروژه',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'یک چارچوب توسعه جلو و عقب و آسان برای استفاده در Vue و Ant Design'
+        sysIntro: 'یک چارچوب توسعه میانی و عقب سودمند مبتنی بر Vue و Element'
     },
     requestInfo: {
         withoutUrl: 'آدرس درخواست نمی تواند خالی باشد',
@@ -136,8 +136,8 @@ export default {
             affixPageCloseError: 'صفحه ثابت مجاز به بستن نیست',
             homePageAffixError: 'صفحه اصلی را نمی توان پین کرد'
         },
-        checkSave: 'آیا می خواهید صفحه را ببندید؟(لطفاً مطمئن شوید که محتوای صفحه ای که با رنگ قرمز مشخص شده است ذخیره شده است)',
-        cancelClose: 'بستن عملیات لغو شد'
+        checkSave: 'آیا می خواهید صفحه را ببندید؟(لطفاً مطمئن شوید که محتوای صفحه مشخص شده با قرمز ذخیره شده است)',
+        cancelClose: 'عمل بستن لغو شد'
     },
     personalCenter: {
         frontendLog: 'ورود به سیستم',
@@ -221,7 +221,7 @@ export default {
     setting: {
         customEntry: 'ورود سریع',
         systemSwitch: 'پیکربندی سیستم',
-        isMock: 'آیا به تمسخر',
+        isMock: 'خواه مسخره',
         isHotKey: 'چه کلید میانبر',
         isBreadCrumb: 'چه خرده نان',
         isCache: 'آیا حافظه پنهان است',

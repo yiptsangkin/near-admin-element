@@ -35,14 +35,14 @@ export default {
             0: 'Peruskehys',
             1: 'Peruskyky',
             '0-0': 'Vue',
-            '0-1': 'Muurahaisen muotoilu',
+            '0-1': 'Elementti',
             '0-2': 'Lähellä Admin Vue',
             '1-0': 'Kehystoiminto',
             '1-0-0': 'Projektin kokoonpano',
             '1-0-1': 'Käyttöliittymän loki',
             '1-0-2': 'Paikallinen pilkka',
             '1-0-3': 'kansainvälistyminen',
-            '1-0-4': 'Data Dictionary',
+            '1-0-4': 'Data-sanakirja',
             '1-0-5': 'EventBus',
             '1-0-6': 'Työkalusarja',
             '1-0-7': 'Kulunvalvonta',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Helppokäyttöinen Vue and Ant Design -sovellukseen perustuva keski- ja taustapään kehityskehys'
+        sysIntro: 'Helppokäyttöinen Vue- ja Element-pohjainen keski- ja taustapohjainen kehityskehys'
     },
     requestInfo: {
         withoutUrl: 'Pyyntöosoite ei voi olla tyhjä',

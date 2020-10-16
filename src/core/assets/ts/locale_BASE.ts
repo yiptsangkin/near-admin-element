@@ -5,7 +5,7 @@ module.exports = {
         }
     },
     sysInfo: {
-        sysIntro: '一款基于Vue和Ant Design的好用中后台前端开发框架'
+        sysIntro: '一款基于Vue和Element的好用中后台前端开发框架'
     },
     requestInfo: {
         withoutUrl: '请求地址不能为空',

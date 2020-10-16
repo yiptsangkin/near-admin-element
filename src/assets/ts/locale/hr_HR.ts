@@ -35,7 +35,7 @@ export default {
             0: 'Osnovni okvir',
             1: 'Osnovna sposobnost',
             '0-0': 'Vue',
-            '0-1': 'Dizajn mrava',
+            '0-1': 'Element',
             '0-2': 'Blizu administratora Vue',
             '1-0': 'Okvirna funkcija',
             '1-0-0': 'Konfiguracija projekta',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Jednostavan za korištenje srednji i pozadinski front-end razvojni okvir zasnovan na Vue i Ant dizajnu'
+        sysIntro: 'Korisni srednji i pozadinski front-end razvojni okvir zasnovan na Vueu i Elementu'
     },
     requestInfo: {
         withoutUrl: 'Adresa zahtjeva ne može biti prazna',
@@ -166,7 +166,7 @@ export default {
     },
     logline: {
         list: 'Popis dnevnika',
-        detail: 'Pojedinosti zapisnika',
+        detail: 'Pojedinosti dnevnika',
         btnList: {
             export: 'Izvoz',
             remove: 'Prazan'
@@ -199,7 +199,7 @@ export default {
     },
     comTable: {
         columns: {
-            title: 'Postavke stupaca',
+            title: 'Postavke stupca',
             all: 'Odaberi sve',
             reset: 'Resetirati',
             fixedLeft: 'Popravljeno lijevo',

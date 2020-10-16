@@ -35,7 +35,7 @@ export default {
             0: 'Marco básico',
             1: 'Habilidad básica',
             '0-0': 'Vue',
-            '0-1': 'Diseño de hormigas',
+            '0-1': 'Elemento',
             '0-2': 'Cerca de Admin Vue',
             '1-0': 'Función marco',
             '1-0-0': 'Configuración del proyecto',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Un marco de desarrollo de front-end intermedio y back-end fácil de usar basado en Vue y Ant Design'
+        sysIntro: 'Un marco útil de desarrollo de front-end intermedio y back-end basado en Vue y Element'
     },
     requestInfo: {
         withoutUrl: 'La dirección de solicitud no puede estar vacía',
@@ -221,7 +221,7 @@ export default {
     setting: {
         customEntry: 'Entrada rapida',
         systemSwitch: 'Configuración del sistema',
-        isMock: 'Ya sea para burlarse',
+        isMock: 'Ya sea Mock',
         isHotKey: 'Si la tecla de método abreviado',
         isBreadCrumb: 'Si pan rallado',
         isCache: 'Ya sea para almacenar en caché',

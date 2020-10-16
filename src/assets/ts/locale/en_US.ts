@@ -35,7 +35,7 @@ export default {
             0: 'Basic framework',
             1: 'Basic ability',
             '0-0': 'Vue',
-            '0-1': 'Ant Design',
+            '0-1': 'Element',
             '0-2': 'Near Admin Vue',
             '1-0': 'Framework function',
             '1-0-0': 'Project configuration',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'An easy-to-use middle and back-end front-end development framework based on Vue and Ant Design'
+        sysIntro: 'A useful middle and back-end front-end development framework based on Vue and Element'
     },
     requestInfo: {
         withoutUrl: 'Request address cannot be empty',
@@ -136,7 +136,7 @@ export default {
             affixPageCloseError: 'Fixed page is not allowed to close',
             homePageAffixError: 'Homepage cannot be unpinned'
         },
-        checkSave: 'Do you want to close the page?(Please make sure the content of the page marked in red has been saved)',
+        checkSave: 'Do you want to close the page?(Please make sure that the content of the page marked in red has been saved)',
         cancelClose: 'Close operation canceled'
     },
     personalCenter: {
@@ -221,7 +221,7 @@ export default {
     setting: {
         customEntry: 'Quick entry',
         systemSwitch: 'System Configuration',
-        isMock: 'Whether to Mock',
+        isMock: 'Whether Mock',
         isHotKey: 'Whether shortcut key',
         isBreadCrumb: 'Whether bread crumbs',
         isCache: 'Whether to cache',

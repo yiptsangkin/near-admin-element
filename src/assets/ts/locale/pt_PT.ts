@@ -35,7 +35,7 @@ export default {
             0: 'Estrutura básica',
             1: 'Habilidade básica',
             '0-0': 'Vue',
-            '0-1': 'Ant Design',
+            '0-1': 'Elemento',
             '0-2': 'Perto de Admin Vue',
             '1-0': 'Função de framework',
             '1-0-0': 'Configuração do projeto',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Uma estrutura de desenvolvimento de front-end intermediária e back-end fácil de usar baseada em Vue e Ant Design'
+        sysIntro: 'Um framework de desenvolvimento de front-end intermediário e back-end útil baseado em Vue e Element'
     },
     requestInfo: {
         withoutUrl: 'O endereço de solicitação não pode estar vazio',
@@ -152,7 +152,7 @@ export default {
         errorTip: {
             notfoundTip: 'Desculpe, a página que você visitou não existe',
             notrightTip: 'Desculpe, você não tem permissão para acessar esta página',
-            noserviceTip: 'Desculpe, houve um problema com o servidor, por favor tente novamente mais tarde'
+            noserviceTip: 'Desculpe, ocorreu um problema com o servidor, por favor tente novamente mais tarde'
         },
         btnText: 'Fechar página'
     },
@@ -221,7 +221,7 @@ export default {
     setting: {
         customEntry: 'Entrada rápida',
         systemSwitch: 'Configuração do sistema',
-        isMock: 'Se zombar',
+        isMock: 'Se Mock',
         isHotKey: 'Se tecla de atalho',
         isBreadCrumb: 'Seja migalhas de pão',
         isCache: 'Se deve armazenar em cache',

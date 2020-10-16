@@ -2,9 +2,9 @@ export default {
     locale: 'hu',
     country: 'HU',
     loginForm: {
-        byAccountBtn: 'Jelszó bejelentkezés',
+        byAccountBtn: 'Fiók jelszó bejelentkezés',
         byPhoneBtn: 'Mobilszám bejelentkezés',
-        accountPlaceholder: 'Kérjük, adja meg a felhasználónév nevét',
+        accountPlaceholder: 'Kérjük, adja meg a felhasználónevet',
         passwordPlaceholder: 'Kérlek írd be a jelszót',
         autoLogin: 'automatikus bejelentkezés',
         forgetBtn: 'elfelejtett jelszo',
@@ -35,7 +35,7 @@ export default {
             0: 'Alapvető keret',
             1: 'Alapképesség',
             '0-0': 'Vue',
-            '0-1': 'Hangya tervezés',
+            '0-1': 'Elem',
             '0-2': 'Az Admin Vue közelében',
             '1-0': 'Keretfunkció',
             '1-0-0': 'Projekt konfigurálása',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Könnyen használható középső és háttérbeli front-end fejlesztési keretrendszer, amely a Vue and Ant Design alapján készült'
+        sysIntro: 'Hasznos közép-és háttér-front-end fejlesztési keretrendszer a Vue és az Element alapján'
     },
     requestInfo: {
         withoutUrl: 'A kérelem címe nem lehet üres',
@@ -136,7 +136,7 @@ export default {
             affixPageCloseError: 'A javított oldal nem zárható be',
             homePageAffixError: 'A kezdőlap nem rögzíthető'
         },
-        checkSave: 'Bezárja az oldalt?(Kérjük, ellenőrizze, hogy a piros színnel jelölt oldal tartalma mentve van-e)',
+        checkSave: 'Bezárja az oldalt?(Kérjük, ellenőrizze, hogy a pirossal jelölt oldal tartalma mentve van-e)',
         cancelClose: 'A bezárás megszakítva'
     },
     personalCenter: {
@@ -193,7 +193,7 @@ export default {
         request: 'Kérjen adatokat',
         error: {
             cancel: 'Üres művelet törölve',
-            confirm: 'Törli a naplót?(Ha a napló kiürül, nem lehet lekérni)'
+            confirm: 'Törli a naplót?(Ha a napló kiürül, akkor nem lehet lekérni)'
         },
         success: 'A napló kiürült'
     },
@@ -203,7 +203,7 @@ export default {
             all: 'mindet kiválaszt',
             reset: 'Visszaállítás',
             fixedLeft: 'Javítva balra',
-            fixedRight: 'Javítva jobbra',
+            fixedRight: 'Javítva',
             cancelFixed: 'Kibont'
         },
         size: {

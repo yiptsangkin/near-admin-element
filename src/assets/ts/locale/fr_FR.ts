@@ -35,7 +35,7 @@ export default {
             0: 'Cadre de base',
             1: 'Capacité de base',
             '0-0': 'Vue',
-            '0-1': 'Conception de fourmis',
+            '0-1': 'Élément',
             '0-2': 'Vue d&#39;administration à proximité',
             '1-0': 'Fonction de cadre',
             '1-0-0': 'Configuration du projet',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Un cadre de développement front-end central et back-end facile à utiliser basé sur Vue et Ant Design'
+        sysIntro: 'Un cadre de développement front-end central et back-end facile à utiliser basé sur Vue et Element'
     },
     requestInfo: {
         withoutUrl: 'L&#39;adresse de la demande ne peut pas être vide',
@@ -134,7 +134,7 @@ export default {
         errorTip: {
             homePageCloseError: 'La page d&#39;accueil n&#39;est pas autorisée à se fermer',
             affixPageCloseError: 'La page fixe n&#39;est pas autorisée à se fermer',
-            homePageAffixError: 'Impossible de détacher la page d&#39;accueil'
+            homePageAffixError: 'La page d&#39;accueil ne peut pas être supprimée'
         },
         checkSave: 'Voulez-vous fermer la page?(Veuillez vous assurer que le contenu de la page marquée en rouge a été enregistré)',
         cancelClose: 'Fermer l&#39;opération annulée'

@@ -35,7 +35,7 @@ export default {
             0: 'Grundlæggende ramme',
             1: 'Grundlæggende evne',
             '0-0': 'Vue',
-            '0-1': 'Ant Design',
+            '0-1': 'Element',
             '0-2': 'I nærheden af ​​Admin Vue',
             '1-0': 'Rammefunktion',
             '1-0-0': 'Projektkonfiguration',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'En nyttig mellem- og back-end frontend-udviklingsramme baseret på Vue og Ant Design'
+        sysIntro: 'En nyttig mellem- og back-end front-end-udviklingsramme baseret på Vue og Element'
     },
     requestInfo: {
         withoutUrl: 'Anmodningsadresse kan ikke være tom',
@@ -221,10 +221,10 @@ export default {
     setting: {
         customEntry: 'Hurtig adgang',
         systemSwitch: 'System konfiguration',
-        isMock: 'Uanset om man skal spotte',
+        isMock: 'Uanset om Mock',
         isHotKey: 'Om genvejstast',
         isBreadCrumb: 'Uanset om brødkrummer',
-        isCache: 'Uanset om det skal cache',
+        isCache: 'Om det skal cache',
         isI18n: 'Uanset om man skal internationalisere'
     },
     pagingInfo: {

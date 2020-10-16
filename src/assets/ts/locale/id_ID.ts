@@ -35,8 +35,8 @@ export default {
             0: 'Kerangka dasar',
             1: 'Kemampuan dasar',
             '0-0': 'Vue',
-            '0-1': 'Desain Semut',
-            '0-2': 'Di dekat Admin Vue',
+            '0-1': 'Elemen',
+            '0-2': 'Dekat Admin Vue',
             '1-0': 'Fungsi kerangka kerja',
             '1-0-0': 'Konfigurasi proyek',
             '1-0-1': 'Log frontend',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Framework pengembangan front-end middle dan back-end yang mudah digunakan berdasarkan Vue and Ant Design'
+        sysIntro: 'Framework pengembangan front-end middle dan back-end yang berguna berdasarkan Vue dan Element'
     },
     requestInfo: {
         withoutUrl: 'Alamat permintaan tidak boleh kosong',
@@ -136,7 +136,7 @@ export default {
             affixPageCloseError: 'Halaman yang diperbaiki tidak diizinkan untuk ditutup',
             homePageAffixError: 'Beranda tidak dapat dilepas pinnya'
         },
-        checkSave: 'Apakah Anda ingin menutup halaman ini?(Harap pastikan bahwa konten halaman bertanda merah telah disimpan)',
+        checkSave: 'Apakah Anda ingin menutup halaman?(Harap pastikan bahwa konten halaman yang ditandai dengan warna merah telah disimpan)',
         cancelClose: 'Operasi penutupan dibatalkan'
     },
     personalCenter: {
@@ -221,7 +221,7 @@ export default {
     setting: {
         customEntry: 'Entri cepat',
         systemSwitch: 'Sistem konfigurasi',
-        isMock: 'Apakah akan Mock',
+        isMock: 'Apakah Mock',
         isHotKey: 'Apakah tombol pintas',
         isBreadCrumb: 'Apakah remah roti',
         isCache: 'Apakah akan menyimpan cache',

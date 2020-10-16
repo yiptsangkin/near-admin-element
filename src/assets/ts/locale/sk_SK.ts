@@ -35,7 +35,7 @@ export default {
             0: 'Základný rámec',
             1: 'Základná schopnosť',
             '0-0': 'Vue',
-            '0-1': 'Návrh mravca',
+            '0-1': 'Prvok',
             '0-2': 'V blízkosti zariadenia Admin Vue',
             '1-0': 'Rámcová funkcia',
             '1-0-0': 'Konfigurácia projektu',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Ľahko použiteľný stredný a koncový front-endový vývojový rámec založený na Vue a Ant Design'
+        sysIntro: 'Užitočný prostredný a back-endový front-endový vývojový rámec založený na Vue a Element'
     },
     requestInfo: {
         withoutUrl: 'Adresa žiadosti nemôže byť prázdna',
@@ -193,7 +193,7 @@ export default {
         request: 'Vyžiadajte si údaje',
         error: {
             cancel: 'Prázdna operácia bola zrušená',
-            confirm: 'Chcete vyčistiť denník?(Ak je protokol vyprázdnený, nedá sa načítať)'
+            confirm: 'Chcete vyčistiť denník?(Ak je protokol vyprázdnený, nemožno ho získať)'
         },
         success: 'Denník bol vyprázdnený'
     },
@@ -221,7 +221,7 @@ export default {
     setting: {
         customEntry: 'Rýchly vstup',
         systemSwitch: 'Konfigurácia systému',
-        isMock: 'Či vysmievať',
+        isMock: 'Či už Mock',
         isHotKey: 'Či už klávesová skratka',
         isBreadCrumb: 'Či už strúhanka',
         isCache: 'Či do cache',

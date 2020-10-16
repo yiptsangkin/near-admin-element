@@ -35,7 +35,7 @@ export default {
             0: 'Grundläggande ramverk',
             1: 'Grundläggande förmåga',
             '0-0': 'Vue',
-            '0-1': 'Ant Design',
+            '0-1': 'Element',
             '0-2': 'Nära Admin Vue',
             '1-0': 'Ramfunktion',
             '1-0-0': 'Projektkonfiguration',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Ett lättanvänt utvecklingsramverk för mellersta och bakre front-end baserat på Vue och Ant Design'
+        sysIntro: 'Ett användbart fram- och bakre utvecklingsramverk baserat på Vue och Element'
     },
     requestInfo: {
         withoutUrl: 'Begäran kan inte vara tom',
@@ -102,7 +102,7 @@ export default {
         'mn-mn': 'Mongoliska',
         'ms-my': 'Malajiska',
         nb: 'Norska',
-        'ne-np': 'Nepali',
+        'ne-np': 'Nepalesiska',
         'nl-be': 'Flamländska',
         nl: 'Nederländska',
         pl: 'putsa',
@@ -133,10 +133,10 @@ export default {
         cancelAffixPage: 'Lossa',
         errorTip: {
             homePageCloseError: 'Hemsidan får inte stängas',
-            affixPageCloseError: 'Fixad sida får inte stängas',
+            affixPageCloseError: 'Fast sida får inte stängas',
             homePageAffixError: 'Hemsidan kan inte lossas'
         },
-        checkSave: 'Vill du stänga sidan?(Se till att innehållet på den rödmarkerade sidan har sparats)',
+        checkSave: 'Vill du stänga sidan?(Se till att innehållet på sidan markerat med rött har sparats)',
         cancelClose: 'Stängning avbröts'
     },
     personalCenter: {
@@ -219,9 +219,9 @@ export default {
         detail: 'Se'
     },
     setting: {
-        customEntry: 'Snabb inmatning',
+        customEntry: 'Snabbinträde',
         systemSwitch: 'Systemkonfiguration',
-        isMock: 'Oavsett om man ska håna',
+        isMock: 'Oavsett om Mock',
         isHotKey: 'Oavsett genvägsknapp',
         isBreadCrumb: 'Oavsett om brödsmulor',
         isCache: 'Oavsett om du vill cache',

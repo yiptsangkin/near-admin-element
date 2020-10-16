@@ -35,7 +35,7 @@ export default {
             0: 'Grundgerüst',
             1: 'Grundlegende Fähigkeit',
             '0-0': 'Vue',
-            '0-1': 'Ameisendesign',
+            '0-1': 'Element',
             '0-2': 'In der Nähe von Admin Vue',
             '1-0': 'Rahmenfunktion',
             '1-0-0': 'Projektkonfiguration',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Ein nützliches Front-End-Entwicklungsframework für das mittlere und Back-End, das auf Vue und Ant Design basiert'
+        sysIntro: 'Ein nützliches Front-End-Entwicklungsframework für das mittlere und Back-End, das auf Vue und Element basiert'
     },
     requestInfo: {
         withoutUrl: 'Die Anforderungsadresse darf nicht leer sein',
@@ -150,7 +150,7 @@ export default {
     },
     errorPage: {
         errorTip: {
-            notfoundTip: 'Die von Ihnen besuchte Seite ist leider nicht vorhanden',
+            notfoundTip: 'Die von Ihnen besuchte Seite existiert leider nicht',
             notrightTip: 'Leider haben Sie keine Berechtigung, auf diese Seite zuzugreifen',
             noserviceTip: 'Entschuldigung, es gab ein Problem mit dem Server. Bitte versuchen Sie es später erneut'
         },
@@ -221,7 +221,7 @@ export default {
     setting: {
         customEntry: 'Schneller Einstieg',
         systemSwitch: 'Systemkonfiguration',
-        isMock: 'Ob zu verspotten',
+        isMock: 'Ob Mock',
         isHotKey: 'Ob Tastenkürzel',
         isBreadCrumb: 'Ob Semmelbrösel',
         isCache: 'Ob zwischengespeichert werden soll',

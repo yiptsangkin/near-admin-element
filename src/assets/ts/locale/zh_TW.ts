@@ -35,7 +35,7 @@ export default {
             0: '基礎框架',
             1: '基礎能力',
             '0-0': 'Vue',
-            '0-1': 'Ant Design',
+            '0-1': 'Element',
             '0-2': 'Near Admin Vue',
             '1-0': '框架功能',
             '1-0-0': '項目配置',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: '一款基於Vue和Ant Design的好用中後台前端開發框架'
+        sysIntro: '一款基於Vue和Element的好用中後台前端開發框架'
     },
     requestInfo: {
         withoutUrl: '請求地址不能為空',

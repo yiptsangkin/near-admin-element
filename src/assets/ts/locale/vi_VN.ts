@@ -35,7 +35,7 @@ export default {
             0: 'Khung cơ bản',
             1: 'Khả năng cơ bản',
             '0-0': 'Vue',
-            '0-1': 'Kiến thiết kế',
+            '0-1': 'Thành phần',
             '0-2': 'Gần Vue quản trị',
             '1-0': 'Chức năng khung',
             '1-0-0': 'Cấu hình dự án',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Khung phát triển giao diện người dùng giữa và cuối dễ sử dụng dựa trên Vue và Ant Design'
+        sysIntro: 'Một khung phát triển front-end hữu ích giữa và back-end dựa trên Vue và Element'
     },
     requestInfo: {
         withoutUrl: 'Địa chỉ yêu cầu không được để trống',
@@ -82,7 +82,7 @@ export default {
         en: 'Tiếng Anh',
         es: 'người Tây Ban Nha',
         et: 'Người Estonia',
-        fa: 'Tiếng ba tư',
+        fa: 'Ba Tư',
         fi: 'Phần lan',
         fr: 'người Pháp',
         he: 'Tiếng Do Thái',
@@ -221,7 +221,7 @@ export default {
     setting: {
         customEntry: 'Vào nhanh',
         systemSwitch: 'Cấu hình hệ thông',
-        isMock: 'Có giả mạo hay không',
+        isMock: 'Cho dù Mock',
         isHotKey: 'Cho dù phím tắt',
         isBreadCrumb: 'Cho dù bánh mì vụn',
         isCache: 'Có lưu vào bộ nhớ cache không',

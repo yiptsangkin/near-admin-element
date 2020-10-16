@@ -35,7 +35,7 @@ export default {
             0: '基本的なフレームワーク',
             1: '基本能力',
             '0-0': 'Vue',
-            '0-1': 'Antデザイン',
+            '0-1': '素子',
             '0-2': 'AdminVueの近く',
             '1-0': 'フレームワーク機能',
             '1-0-0': 'プロジェクト構成',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'VueおよびAntDesignに基づく使いやすいミドルエンドおよびバックエンドのフロントエンド開発フレームワーク'
+        sysIntro: 'VueとElementに基づく便利なミドルエンドとバックエンドのフロントエンド開発フレームワーク'
     },
     requestInfo: {
         withoutUrl: 'リクエストアドレスを空にすることはできません',
@@ -221,7 +221,7 @@ export default {
     setting: {
         customEntry: 'クイックエントリー',
         systemSwitch: 'システム構成',
-        isMock: 'モックするかどうか',
+        isMock: 'モックかどうか',
         isHotKey: 'ショートカットキーかどうか',
         isBreadCrumb: 'パン粉かどうか',
         isCache: 'キャッシュするかどうか',

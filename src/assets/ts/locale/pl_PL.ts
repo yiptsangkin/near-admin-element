@@ -35,7 +35,7 @@ export default {
             0: 'Podstawowe ramy',
             1: 'Podstawowe umiejętności',
             '0-0': 'Vue',
-            '0-1': 'Ant Design',
+            '0-1': 'Element',
             '0-2': 'Blisko Admin Vue',
             '1-0': 'Funkcja ramowa',
             '1-0-0': 'Konfiguracja projektu',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Łatwa w użyciu platforma programistyczna front-end dla środkowego i zaplecza oparta na Vue i Ant Design'
+        sysIntro: 'Łatwa w użyciu platforma programistyczna front-end dla środkowego i zaplecza oparta na Vue i Element'
     },
     requestInfo: {
         withoutUrl: 'Adres żądania nie może być pusty',
@@ -136,7 +136,7 @@ export default {
             affixPageCloseError: 'Naprawionej strony nie można zamknąć',
             homePageAffixError: 'Nie można odpiąć strony głównej'
         },
-        checkSave: 'Chcesz zamknąć stronę?(Upewnij się, że zawartość strony zaznaczona na czerwono została zapisana)',
+        checkSave: 'Chcesz zamknąć stronę?(Upewnij się, że zawartość strony zaznaczonej na czerwono została zapisana)',
         cancelClose: 'Zamknięcie operacji zostało anulowane'
     },
     personalCenter: {
@@ -221,7 +221,7 @@ export default {
     setting: {
         customEntry: 'Szybkie wejście',
         systemSwitch: 'Konfiguracja systemu',
-        isMock: 'Czy drwić',
+        isMock: 'Czy Mock',
         isHotKey: 'Czy klawisz skrótu',
         isBreadCrumb: 'Czy bułka tarta',
         isCache: 'Czy buforować',

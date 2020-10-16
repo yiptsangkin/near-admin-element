@@ -35,7 +35,7 @@ export default {
             0: 'Basisraamwerk',
             1: 'Basisvaardigheid',
             '0-0': 'Vue',
-            '0-1': 'Ant ontwerp',
+            '0-1': 'Element',
             '0-2': 'In de buurt van Admin Vue',
             '1-0': 'Framework-functie',
             '1-0-0': 'Project configuratie',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Een gebruiksvriendelijk midden- en back-end front-end ontwikkelingsraamwerk op basis van Vue en Ant Design'
+        sysIntro: 'Een handig midden- en back-end front-end ontwikkelingsraamwerk op basis van Vue en Element'
     },
     requestInfo: {
         withoutUrl: 'Verzoekadres mag niet leeg zijn',
@@ -152,7 +152,7 @@ export default {
         errorTip: {
             notfoundTip: 'Sorry, de pagina die u heeft bezocht, bestaat niet',
             notrightTip: 'Sorry, u heeft geen toestemming om deze pagina te openen',
-            noserviceTip: 'Sorry, er was een probleem met de server, probeer het later opnieuw'
+            noserviceTip: 'Sorry, er was een probleem met de server. Probeer het later opnieuw'
         },
         btnText: 'Pagina sluiten'
     },
@@ -221,7 +221,7 @@ export default {
     setting: {
         customEntry: 'Snelle toegang',
         systemSwitch: 'Systeem configuratie',
-        isMock: 'Of je wilt bespotten',
+        isMock: 'Of Mock',
         isHotKey: 'Of sneltoets',
         isBreadCrumb: 'Of het nu gaat om broodkruimels',
         isCache: 'Of je wilt cachen',

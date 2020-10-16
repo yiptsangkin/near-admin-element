@@ -35,7 +35,7 @@ export default {
             0: 'Pamata sistēma',
             1: 'Pamata spējas',
             '0-0': 'Vue',
-            '0-1': 'Skudru dizains',
+            '0-1': 'Elements',
             '0-2': 'Netālu no Admin Vue',
             '1-0': 'Sistēmas funkcija',
             '1-0-0': 'Projekta konfigurācija',
@@ -64,7 +64,7 @@ export default {
         }
     },
     sysInfo: {
-        sysIntro: 'Viegli lietojams vidējā un aizmugurējā front-end izstrādes ietvars, kura pamatā ir Vue and Ant Design'
+        sysIntro: 'Viegli lietojams vidējā un aizmugurējā front-end izstrādes ietvars, kas balstīts uz Vue un Element'
     },
     requestInfo: {
         withoutUrl: 'Pieprasījuma adrese nevar būt tukša',
@@ -132,7 +132,7 @@ export default {
         affixPage: 'Piespraust lapu',
         cancelAffixPage: 'Atspraust',
         errorTip: {
-            homePageCloseError: 'Mājas lapu nedrīkst aizvērt',
+            homePageCloseError: 'Mājas lapu nav atļauts aizvērt',
             affixPageCloseError: 'Fiksēto lapu nav atļauts aizvērt',
             homePageAffixError: 'Mājas lapu nevar atspraust'
         },
@@ -150,7 +150,7 @@ export default {
     },
     errorPage: {
         errorTip: {
-            notfoundTip: 'Diemžēl jūsu apmeklētā lapa neeksistē',
+            notfoundTip: 'Diemžēl jūsu apmeklētā lapa nepastāv',
             notrightTip: 'Diemžēl jums nav atļaujas piekļūt šai lapai',
             noserviceTip: 'Diemžēl ar serveri radās problēma. Lūdzu, vēlāk mēģiniet vēlreiz'
         },
@@ -221,7 +221,7 @@ export default {
     setting: {
         customEntry: 'Ātra ievadīšana',
         systemSwitch: 'Sistēmas konfigurācija',
-        isMock: 'Vai ņirgāties',
+        isMock: 'Vai izspēles',
         isHotKey: 'Vai īsinājumtaustiņš',
         isBreadCrumb: 'Vai maizes drupatas',
         isCache: 'Vai saglabāt kešatmiņu',
