@@ -7,7 +7,7 @@
         <img src="https://img.shields.io/badge/vue-2.6.11-brightgreen" alt="vue">
     </a>
     <a href="https://element.eleme.cn">
-        <img src="https://img.shields.io/badge/antdv-2.13.2-brightgreen" alt="element">
+        <img src="https://img.shields.io/badge/element-2.13.2-brightgreen" alt="element">
     </a>
     <a href="https://github.com/yiptsangkin/near-admin-element">
         <img src="https://img.shields.io/badge/release-1.0.0-blue" alt="release">
