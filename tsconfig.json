@@ -1,0 +1,76 @@
+{
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "strict": true,
+    "jsx": "preserve",
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "sourceMap": true,
+    "baseUrl": ".",
+    "types": [
+      "webpack-env",
+      "mocha",
+      "chai"
+    ],
+    "paths": {
+      "@/*": [
+        "src/*"
+      ],
+      "@corets/*": [
+        "src/core/assets/ts/*"
+      ],
+      "@corecp/*": [
+        "src/core/component/*"
+      ],
+      "@custom/*": [
+        "src/assets/ts/custom/*"
+      ],
+      "@locale/*": [
+        "src/assets/ts/locale/*"
+      ],
+      "@api/*": [
+        "src/assets/ts/api/*"
+      ],
+      "@store/*": [
+        "src/store/*"
+      ],
+      "@mock/*": [
+        "src/mock/*"
+      ],
+      "~@scss/*": [
+        "src/assets/scss/*"
+      ],
+      "~@corescss/*": [
+        "src/core/assets/scss/*"
+      ],
+      "@css/*": [
+        "src/assets/css/*"
+      ],
+      "@font/*": [
+        "src/assets/font/*"
+      ],
+      "@corestore/*": [
+        "src/core/store/*"
+      ]
+    },
+    "lib": [
+      "esnext",
+      "dom",
+      "dom.iterable",
+      "scripthost"
+    ]
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.vue",
+    "tests/**/*.ts",
+    "tests/**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

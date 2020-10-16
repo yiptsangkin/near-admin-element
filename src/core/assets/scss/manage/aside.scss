@@ -1,0 +1,43 @@
+@import "../params";
+@import "~@scss/custom/theme/theme";
+
+.n-layout-sider{
+  background-color: $grey-f9;
+  position: relative;
+  overflow: unset;
+  transition: .5s;
+  .n-aside-wrp{
+    overflow-y: auto;
+    height: 100%;
+  }
+  ::v-deep .ant-menu{
+    background-color: unset;
+  }
+  .n-layout-sider-menu{
+    width: 200px;
+    margin-left: 1px;
+  }
+}
+
+.n-aside-shrink-btn{
+  position: absolute;
+  right:-16px;
+  font-size: 12px;
+  color: $grey-f;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.12s ease;
+  -webkit-transition: all 0.12s ease;
+  height: 66px;
+  border-bottom: 8px solid transparent;
+  border-right: none;
+  border-left: 14px solid lighten($primary-color, 30%);
+  border-top: 8px solid transparent;
+  cursor: pointer;
+  z-index: 5;
+  .shrink-arrow{
+    margin-left: -14px;
+    top: 16px;
+    position: relative;
+  }
+}

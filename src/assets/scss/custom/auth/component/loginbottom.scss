@@ -1,0 +1,20 @@
+@import "~@corescss/params.scss";
+
+.n-login-bottom{
+  .n-login-option{
+    text-align: left;
+    .n-login-forget{
+      float: right;
+    }
+  }
+  .n-login-submit{
+    margin-top: 24px;
+    .n-login-submit-btn{
+      width: 100%;
+    }
+  }
+}
+
+.inline-checkbox{
+  display: inline-block;
+}

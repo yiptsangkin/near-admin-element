@@ -1,0 +1,33 @@
+@import "params";
+
+::v-deep .primary-color{
+  color: $vue-green;
+}
+
+/* 改变主题色变量 */
+$--color-primary: $vue-green;
+
+/* 改变 icon 字体路径变量，必需 */
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+
+@import "~element-ui/packages/theme-chalk/src/index";
+
+.n-form {
+  .el-form-item {
+    display: flex;
+    .el-form-item__content{
+      flex: 1;
+    }
+  }
+}
+
+.n-common-pagination {
+  height: 44px;
+  text-align: right;
+  padding: 0 16px;
+  .el-pagination{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}

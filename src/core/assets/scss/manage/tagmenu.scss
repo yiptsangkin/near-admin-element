@@ -1,0 +1,23 @@
+@import "~@scss/custom/theme/theme";
+@import "~@corescss/params.scss";
+
+.n-tag-ctx-menu-wrp{
+  width: auto;
+  display: inline-block;
+  position: absolute;
+  z-index: 5;
+  .n-tag-ctx-menu{
+    border-right: 0;
+    .el-menu-item{
+      height: 36px;
+      line-height: 36px;
+    }
+  }
+  ::v-deep .ant-menu-vertical > .ant-menu-item {
+    height: 32px;
+    line-height: 32px;
+    font-size: 12px;
+  }
+}
+
+
